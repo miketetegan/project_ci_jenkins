@@ -243,14 +243,8 @@ pipeline {
                 }
             }
         }
-        
-        stage('Update image version in k8s repo') {
-            steps {
-                echo "Updating image version in k8s repo"
-                }
-            }
-        }
     }
+}
 
 // post { 
 // }
